@@ -1,0 +1,80 @@
+$site-footer-padding-y:                   68px;
+$site-footer-padding-y-sm:                24px;
+$site-footer-social-menu-margin-top:      46px;
+$site-footer-social-menu-margin-bottom:   38px;
+$site-footer-social-menu-margin-y-sm:     24px;
+
+
+.site-footer {
+  color: color('white');
+  .footer-top, .footer-bottom {
+    padding: $site-footer-padding-y 0;
+    @include media-breakpoint-down('sm') {
+      padding: $site-footer-padding-y-sm 0;
+      font-size: .875rem;
+    }
+  }
+  .footer-top {
+    background-color: theme-color('primary');
+  }
+  .footer-bottom {
+    display: none;
+    background-color: theme-color('info');
+    @include media-breakpoint-down('sm') {
+      display: block;
+    }
+    .menu {
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          color: color('white');
+          line-height: 2;
+        }
+        &:not(:last-of-type) {
+          a {
+            margin-right: .5rem;
+          }
+        }
+        &:not(:first-of-type) {
+          a {
+            &::before {
+              content: '|';
+              display: inline-block;
+              padding-right: .5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .menu--main {
+    li {
+      a {
+        color: color('white');
+        line-height: 2.5rem;
+      }
+    }
+  }
+  .menu--social {
+    margin-top: $site-footer-social-menu-margin-top;
+    margin-bottom: $site-footer-social-menu-margin-bottom;
+    @include media-breakpoint-down('sm') {
+      margin-top: $site-footer-social-menu-margin-y-sm;
+      margin-bottom: $site-footer-social-menu-margin-y-sm;
+    }
+    li {
+      a {
+        color: color('white');
+        &.menu-item-circle {
+          color: theme-color('primary');
+        }
+      }
+    }
+  }
+  .credit {
+    margin-top: $site-footer-social-menu-margin-bottom;
+    // margin-bottom: $site-footer-social-menu-margin-bottom;
+    font-size: .75rem;
+  }
+}

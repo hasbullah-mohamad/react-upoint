@@ -1,0 +1,6 @@
+{
+  "name": "AddService",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AddService.jsx"
+}

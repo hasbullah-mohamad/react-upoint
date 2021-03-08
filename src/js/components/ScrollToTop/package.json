@@ -1,0 +1,6 @@
+{
+  "name": "ScrollToTop",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ScrollToTop.jsx"
+}

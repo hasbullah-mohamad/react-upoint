@@ -1,0 +1,6 @@
+{
+  "name": "PricingTable",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PricingTable.jsx"
+}

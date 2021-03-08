@@ -1,0 +1,12 @@
+.page--mobile {
+  .pricing-table-container {
+    @include media-breakpoint-up('lg') {
+      margin-left: -35%;
+    }
+  }
+  .section--mobile {
+    @include media-breakpoint-up('lg') {
+      margin-left: -35%;
+    }
+  }
+}

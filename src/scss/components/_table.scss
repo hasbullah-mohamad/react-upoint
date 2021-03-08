@@ -1,0 +1,45 @@
+.table--transaction {
+  td, th {
+    position: relative;
+  }
+  @include media-breakpoint-down('md') {
+    display: block;
+    overflow-x: auto;
+  }
+  thead {
+    th {
+      font-weight: $font-weight-normal;
+      border: none;
+    }
+  }
+  tbody {
+    tr {
+      box-shadow: 0 2px 20px 0 rgba(gray('400'), 0.35);
+    }
+    td {
+      padding: 1.25rem 0.75rem;
+      border: none;
+      &.vertical-line {
+        padding-left: 50px;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 11px;
+          left: 5px;
+          top: 5px;
+          bottom: 5px;
+          border-radius: 8px;
+        }
+        
+      }
+      @each $key, $value in $theme-colors {
+        &.vertical-line--#{$key} {
+          &::after {
+            background-color: $value;
+          }
+        }
+      }
+    }
+  }
+  
+}

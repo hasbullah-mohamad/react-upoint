@@ -1,0 +1,28 @@
+$datepicker__background-color: color('white') !default;
+$datepicker__border-color: gray('200') !default;
+$datepicker__highlighted-color: theme-color('success') !default;
+$datepicker__muted-color: gray('400') !default;
+$datepicker__selected-color: theme-color('primary') !default;
+$datepicker__text-color: theme-color('info') !default;
+$datepicker__header-color: theme-color('info') !default;
+$datepicker__navigation-disabled-color: lighten($datepicker__muted-color, 10%)
+  !default;
+
+$datepicker__border-radius: 0.3rem !default;
+$datepicker__day-margin: 0.3rem !default;
+$datepicker__font-size: 0.8rem !default;
+$datepicker__font-family: $font-family-base;
+$datepicker__item-size: 1.7rem !default;
+$datepicker__margin: 0.4rem !default;
+$datepicker__navigation-size: 0.45rem !default;
+$datepicker__triangle-size: 8px !default;
+
+@import '~react-datepicker/src/stylesheets/datepicker';
+
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.react-datepicker__input-container {
+  display: block;
+}

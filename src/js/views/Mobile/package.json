@@ -1,0 +1,6 @@
+{
+  "name": "Mobile",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Mobile.jsx"
+}

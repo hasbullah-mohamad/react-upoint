@@ -1,0 +1,6 @@
+{
+  "name": "Brand",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Brand.jsx"
+}

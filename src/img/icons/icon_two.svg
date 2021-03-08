@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 22" style="enable-background:new 0 0 48 22;" xml:space="preserve">
+<title>icon-two</title>
+<desc>Created with Sketch.</desc>
+<g id="Main-Pages">
+	<g transform="translate(-874.000000, -1198.000000)">
+		<g id="icon-two" transform="translate(874.000000, 1198.000000)">
+			<g id="Clip-2">
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="47.914" height="21.955">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="0" y="0" width="47.914" height="21.955" id="mask-2_1_">
+				<g style="filter:url(#Adobe_OpacityMaskFilter);">
+					<polygon id="path-1_1_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,0 47.914,0 47.914,21.955 
+						0,21.955 					"/>
+				</g>
+			</mask>
+			<path id="Fill-1" style="mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#24B28A;" d="M36.667,19.009
+				c-4.537,0-8.229-3.603-8.229-8.031s3.691-8.031,8.229-8.031c4.537,0,8.229,3.603,8.229,8.031S41.204,19.009,36.667,19.009
+				 M11.247,19.009c-4.537,0-8.229-3.603-8.229-8.031s3.691-8.031,8.229-8.031c4.537,0,8.229,3.603,8.229,8.031
+				S15.785,19.009,11.247,19.009 M36.667,0C30.976,0,26.26,4.145,25.52,9.504h-3.127C21.654,4.145,16.938,0,11.247,0
+				C5.046,0,0,4.925,0,10.978c0,6.053,5.046,10.978,11.247,10.978c5.69,0,10.406-4.145,11.146-9.504h3.127
+				c0.74,5.359,5.456,9.504,11.146,9.504c6.202,0,11.247-4.925,11.247-10.978C47.914,4.925,42.868,0,36.667,0"/>
+		</g>
+	</g>
+</g>
+</svg>

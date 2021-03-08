@@ -1,0 +1,114 @@
+// ===================== Panton ===================== /
+// ========= Panton Font Weight 100 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./fonts/Panton-Thin.eot');
+  src: url('./fonts/Panton-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton-Thin.woff') format('woff'),
+       url('./fonts/Panton-Thin.ttf')  format('truetype');
+}
+
+// ========= Panton Font Weight: 200 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./fonts/Panton-ExtraLight.eot');
+  src: url('./fonts/Panton-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton-ExtraLight.woff') format('woff'),
+       url('./fonts/Panton-ExtraLight.ttf')  format('truetype');
+}
+
+// ========= Panton Font Weight: 300 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/Panton-Light.eot');
+  src: url('./fonts/Panton-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton-Light.woff') format('woff'),
+       url('./fonts/Panton-Light.ttf')  format('truetype');
+}
+
+// ========= Panton Font Weight: 400 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Panton.eot');
+  src: url('./fonts/Panton.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton.woff') format('woff'),
+       url('./fonts/Panton.ttf')  format('truetype');
+}
+
+// ========= Panton Font Weight: 600 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/Panton-SemiBold.eot');
+  src: url('./fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton-SemiBold.woff') format('woff'),
+       url('./fonts/Panton-SemiBold.ttf')  format('truetype');
+}
+
+// ========= Panton Font Weight: 700 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Panton-Bold.eot');
+  src: url('./fonts/Panton-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton-Bold.woff') format('woff'),
+       url('./fonts/Panton-Bold.ttf')  format('truetype');
+}
+
+// ========= Panton Font Weight: 800 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./fonts/Panton-ExtraBold.eot');
+  src: url('./fonts/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton-ExtraBold.woff') format('woff'),
+       url('./fonts/Panton-ExtraBold.ttf')  format('truetype');
+}
+
+// ========= Panton Font Weight: 900 ========= /
+@font-face {
+  font-family: 'Panton';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./fonts/Panton-Black.eot');
+  src: url('./fonts/Panton-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/Panton-Black.woff') format('woff'),
+       url('./fonts/Panton-Black.ttf')  format('truetype');
+}
+
+$font-weight-thin:            100 !default;
+$font-weight-extra-light:     200 !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-semi-bold:       600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-extra-bold:      800 !default;
+$font-weight-black:           900 !default;
+
+$font-weights: (
+  'thin': $font-weight-thin, 
+  'extra-light': $font-weight-extra-light,
+  'light': $font-weight-light,
+  'normal': $font-weight-normal,
+  'semi-bold': $font-weight-semi-bold,
+  'bold': $font-weight-bold,
+  'extra-bold': $font-weight-extra-bold,
+  'black': $font-weight-black,
+);
+
+@each $type, $weight in $font-weights {
+  .font-weight-#{$type} {
+    font-weight: $weight !important;
+  }
+} 

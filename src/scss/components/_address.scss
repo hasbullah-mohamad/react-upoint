@@ -1,0 +1,26 @@
+.address-input {
+  position: relative;
+  display: block !important;
+}
+
+.address-check {
+  &.success {
+    .form-control {
+      border-color: theme-color('success');
+      &:focus {
+        box-shadow: 0 0 0 $input-focus-width rgba(theme-color('success'), .25);
+      }
+      background-color: rgba(theme-color('success'), .25);
+    }
+  }
+  &.error {
+    .form-control {
+      border-color: theme-color('danger');
+      &:focus {
+        box-shadow: 0 0 0 $input-focus-width rgba(theme-color('danger'), .25);
+      }
+      background-color: rgba(theme-color('danger'), .25);
+    }
+  }
+  
+}

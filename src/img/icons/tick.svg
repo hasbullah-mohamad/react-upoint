@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Tick</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Input" transform="translate(-387.000000, -48.000000)" fill="#24B28A">
+            <g id="Tick" transform="translate(387.000000, 48.000000)">
+                <path d="M17.5517371,0.426587076 L6.4946094,11.5046869 L2.45989571,7.4170998 C1.89532197,6.84831703 0.989592906,6.84831703 0.424906496,7.40518396 C-0.139667247,7.96205089 -0.139667247,8.88626614 0.41318914,9.45493543 L5.45942609,14.5734129 C5.7417693,14.8578043 6.10647199,15 6.48289205,15 C6.84748207,15 7.21218477,14.8578043 7.49441531,14.5734129 L19.575009,2.47633855 C20.1396954,1.90755578 20.1396954,0.995256361 19.5867264,0.426587076 C19.0221526,-0.142195692 18.1164236,-0.142195692 17.5517371,0.426587076" id="Fill-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

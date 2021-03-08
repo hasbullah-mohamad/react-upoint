@@ -1,0 +1,30 @@
+.dropdown--service {
+  .dropdown-toggle {
+    border-radius: 10px;
+    background-color: color('white');
+    
+    @include media-breakpoint-down('sm') {
+      width: 100%;
+    }
+    @include media-breakpoint-up('md') {
+      min-width: 360px;
+    }
+    position: relative;
+    &:hover {
+      background-color: darken(color('white'), 5%);
+    }
+    letter-spacing: initial;
+    text-transform: initial;
+    font-size: initial;
+    &::after {
+      position: absolute;
+      top: 50%;
+      right: $spacer;
+    }
+  }
+  &.show {
+    .dropdown-toggle {
+      background-color: darken(color('white'), 10%);
+    }
+  }
+}

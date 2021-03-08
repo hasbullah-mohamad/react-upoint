@@ -1,0 +1,10 @@
+.page--404 {
+  .section {
+    &.section--hero {
+      .hero-title {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

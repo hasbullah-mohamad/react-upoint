@@ -1,0 +1,17 @@
+.page--activate-sim {
+  .step-horizontal {
+    .multi-step {
+      .progtrckr {
+        @include media-breakpoint-down('sm') { 
+          @each $type, $progtrckr-items in $progtrckr_types {
+            em {
+              &::after {
+                content: ' of 6';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

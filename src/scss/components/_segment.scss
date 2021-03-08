@@ -1,0 +1,63 @@
+$segment-font-size:                .875rem;
+$segment-font-weight:             $btn-font-weight;
+$segment-border-radius:           30rem;
+$segment-border-width:            2px;
+
+$segment-padding-y:               $btn-padding-y; // $input-btn-padding-y !default;
+$segment-padding-x:               $btn-padding-x; // $input-btn-padding-x !default;
+
+$segment-line-height:             $btn-line-height !default;
+$segment-empty-color:             color('white');
+
+$segment-padding-y-sm:            $btn-padding-y-sm;
+$segment-padding-x-sm:            1rem;
+$segment-font-size-sm:            .75rem;
+
+.segment {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  border: $segment-border-width solid;
+  border-radius: $segment-border-radius;
+  background-color: $segment-empty-color;
+  li {
+    display: inline-block;
+    input {
+      display: none;
+    }
+    label {
+      @include transition(all 0.2s);
+      text-transform: uppercase;
+      border-radius: $segment-border-radius;
+      font-weight: $btn-font-weight;
+      font-size: $segment-font-size;
+      cursor: pointer;
+      display: block;
+      line-height: $segment-line-height;   
+      margin: 0;
+      padding: $segment-padding-y $segment-padding-x;
+      @include media-breakpoint-down('sm') {
+        padding: $segment-padding-y-sm $segment-padding-x-sm;
+        font-size: $segment-font-size-sm;
+      }
+    }
+    border-radius: $segment-border-radius;
+  }
+
+  @each $type, $color in $theme-colors {
+    &.segment--#{$type} {
+      border-color: $color;
+      li {
+        label {
+          color: $color;
+          border-radius: $segment-border-radius;
+        }
+        input:checked + label {
+          color: $segment-empty-color;
+          background: $color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.CircularProgressbar-path {
+  stroke-linecap: round;
+  stroke: theme-color('primary'); 
+}
+.CircularProgressbar-trail {
+  stroke: rgba(theme-color('primary'), 0.3);
+}
+.CircularProgressbar-text{ 
+  fill: theme-color('info'); 
+}
+.CircularProgressbar-background { 
+  fill: transparent; 
+}

@@ -1,0 +1,19 @@
+.page--home {
+  .pack-segment-container {
+    position: relative;
+    z-index: $site-header-z-index + 1;
+    text-align: center;
+    @include media-breakpoint-up('sm') {
+      margin-top: -($section-padding-y + 24px);
+      margin-bottom: $section-padding-y - 24px;
+    }
+  }
+  .section {
+    &.section--hero {
+      padding: 214px 0;
+      .slick-dots {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

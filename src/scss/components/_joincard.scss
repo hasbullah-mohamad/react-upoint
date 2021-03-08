@@ -1,0 +1,67 @@
+$join-card-background:              color('white');
+$join-card-primary-color:           theme-color('primary');
+$join-card-box-shadow:              0 2px 20px 0 gray('400');
+$join-card-font-size:               1.125rem;
+
+$join-card-title-font-weight:       $font-weight-black;
+
+$join-card-border-top-height:       4px;
+
+$join-card-triangle-width:          60px;
+$join-card-triangle-width-sm:       30px;
+
+$join-card-padding-y:        63px;
+$join-card-padding-x:      15px;
+
+$join-card-item-margin-y:    32px;
+
+
+.join-card {
+  border-top: $join-card-border-top-height solid $join-card-primary-color;
+  box-shadow: $join-card-box-shadow;
+  font-size: $join-card-font-size;
+
+  .join-title {
+    font-weight: $join-card-title-font-weight;
+  }
+
+  @include media-breakpoint-up('sm') {
+    display: flex;
+    .join-card-thumbnail, .join-card-content {
+      flex: 1;
+    }
+  }
+  .join-card-thumbnail {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 0;
+      height: 0;
+      margin-top: -$join-card-triangle-width;
+      border-top: $join-card-triangle-width solid transparent;
+      border-bottom: $join-card-triangle-width solid transparent;
+      border-left: $join-card-triangle-width solid $join-card-primary-color;
+      @include media-breakpoint-down('md') {
+        margin-top: -$join-card-triangle-width-sm;
+        border-top: $join-card-triangle-width-sm solid transparent;
+        border-bottom: $join-card-triangle-width-sm solid transparent;
+        border-left: $join-card-triangle-width-sm solid $join-card-primary-color;
+      }
+    }
+  }
+  .join-card-content {
+    padding: $join-card-padding-y $join-card-padding-x;
+    position: relative;
+    text-align: center;
+  }
+  .join-description, .join-action {
+    margin-top: $join-card-item-margin-y;
+  }
+}

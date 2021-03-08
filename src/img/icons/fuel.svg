@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="71px" viewBox="0 0 68 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Icon-3-Copy-6" transform="translate(-4.000000, -14.000000)" stroke="#318BF4" stroke-width="3.5">
+            <g id="Page-1" transform="translate(5.888154, 16.002669)">
+                <path d="M22.1782923,35.4234723 L19.9708359,35.4234723 C16.3141844,35.4234723 13.3484667,38.3880862 13.3484667,42.0458415 L13.3484667,57.4980364 C13.3484667,61.1546879 10.382749,64.1204056 6.72609744,64.1204056 C3.06944589,64.1204056 0.103728205,61.1546879 0.103728205,57.4980364 L0.103728205,19.9712774 L8.93355385,11.1414518" id="Stroke-1"></path>
+                <polyline id="Stroke-3" points="0.103728205 19.9707255 8.93355385 28.8005512 8.93355385 33.215464 0.103728205 33.215464"></polyline>
+                <polygon id="Stroke-5" points="42.0454 50.8752257 50.8752257 50.8752257 50.8752257 35.4230308 42.0454 35.4230308"></polygon>
+                <path d="M22.1782923,26.5930948 L59.7050513,26.5930948 M17.7633795,66.3273102 L64.1199641,66.3273102 M22.1782923,66.3273102 L22.1782923,4.51853065 C22.1782923,2.08039505 24.1550695,0.103617833 26.5932051,0.103617833 L55.2901385,0.103617833 C57.7282741,0.103617833 59.7050513,2.08039505 59.7050513,4.51853065 L59.7050513,66.3273102" id="Stroke-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>

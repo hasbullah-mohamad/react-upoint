@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 23" style="enable-background:new 0 0 32 23;" xml:space="preserve">
+<title>upoint-credit-cards</title>
+<desc>Created with Sketch.</desc>
+<g id="Main-Pages">
+	<g transform="translate(-258.000000, -904.000000)">
+		<g id="upoint-credit-cards" transform="translate(258.000000, 904.000000)">
+			<g id="Group-10">
+				<path id="Stroke-1" style="fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linejoin:round;" d="M30.71,19.476
+					c0,1.242-1.006,2.248-2.246,2.248H2.998c-1.242,0-2.248-1.006-2.248-2.248V2.998c0-1.24,1.006-2.248,2.248-2.248h25.466
+					c1.24,0,2.246,1.008,2.246,2.248V19.476z"/>
+				<g id="Clip-4">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="4.494" y="4.495" width="5.994" height="5.994">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="4.494" y="4.495" width="5.994" height="5.994" id="mask-2_1_">
+					<g style="filter:url(#Adobe_OpacityMaskFilter);">
+						<polygon id="path-1_1_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,22.473 31.462,22.473 
+							31.462,0.001 0,0.001 						"/>
+					</g>
+				</mask>
+				
+					<polygon id="Stroke-3" style="mask:url(#mask-2_1_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linejoin:round;" points="
+					5.244,9.739 9.738,9.739 9.738,5.245 5.244,5.245 				"/>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="4.494" y="13.482" width="4.496" height="1.5">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="4.494" y="13.482" width="4.496" height="1.5" id="mask-2_2_">
+					<g style="filter:url(#Adobe_OpacityMaskFilter_1_);">
+						<polygon id="path-1_2_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,22.473 31.462,22.473 
+							31.462,0.001 0,0.001 						"/>
+					</g>
+				</mask>
+				
+					<path id="Stroke-5" style="mask:url(#mask-2_2_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;" d="
+					M5.244,14.232H8.24"/>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="4.494" y="16.479" width="8.99" height="1.5">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="4.494" y="16.479" width="8.99" height="1.5" id="mask-2_3_">
+					<g style="filter:url(#Adobe_OpacityMaskFilter_2_);">
+						<polygon id="path-1_3_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,22.473 31.462,22.473 
+							31.462,0.001 0,0.001 						"/>
+					</g>
+				</mask>
+				
+					<path id="Stroke-6" style="mask:url(#mask-2_3_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;" d="
+					M5.244,17.229h7.49"/>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse" x="10.486" y="13.482" width="4.496" height="1.5">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="10.486" y="13.482" width="4.496" height="1.5" id="mask-2_4_">
+					<g style="filter:url(#Adobe_OpacityMaskFilter_3_);">
+						<polygon id="path-1_4_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,22.473 31.462,22.473 
+							31.462,0.001 0,0.001 						"/>
+					</g>
+				</mask>
+				
+					<path id="Stroke-7" style="mask:url(#mask-2_4_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;" d="
+					M11.236,14.232h2.996"/>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_4_" filterUnits="userSpaceOnUse" x="16.478" y="13.482" width="4.496" height="1.5">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="16.478" y="13.482" width="4.496" height="1.5" id="mask-2_5_">
+					<g style="filter:url(#Adobe_OpacityMaskFilter_4_);">
+						<polygon id="path-1_5_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,22.473 31.462,22.473 
+							31.462,0.001 0,0.001 						"/>
+					</g>
+				</mask>
+				
+					<path id="Stroke-8" style="mask:url(#mask-2_5_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;" d="
+					M17.228,14.232h2.996"/>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_5_" filterUnits="userSpaceOnUse" x="22.47" y="13.482" width="4.496" height="1.5">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="22.47" y="13.482" width="4.496" height="1.5" id="mask-2_6_">
+					<g style="filter:url(#Adobe_OpacityMaskFilter_5_);">
+						<polygon id="path-1_6_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,22.473 31.462,22.473 
+							31.462,0.001 0,0.001 						"/>
+					</g>
+				</mask>
+				
+					<path id="Stroke-9" style="mask:url(#mask-2_6_);fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;" d="
+					M23.22,14.232h2.996"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

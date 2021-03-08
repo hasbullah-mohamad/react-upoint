@@ -1,0 +1,123 @@
+$progtrckr-size:                    51px;
+$progtrckr-separator-color:         gray('400');
+$progtrckr-separator-height:        1px;
+$progtrckr-box-shadow:              0 0 0 3px gray('200');
+$progtrckr-todo-bg-color:           color('white');
+$progtrckr-todo-color:              gray('400');
+$progtrckr-doing-bg-color:          theme-color('info');
+$progtrckr-doing-color:             color('white');                
+$progtrckr-done-bg-color:           theme-color('primary');
+$progtrckr-done-color:              color('white');
+$progtrckr-color:                   theme-color('info');
+$progtrckr-em-font-weight:          $font-weight-bold;
+$progtrckr-em-font-size:            1.625rem;
+$progtrckr-span-margin-top:         20px;
+
+
+$progtrckr_types:                   (
+                                      'todo':   $progtrckr-todo-bg-color $progtrckr-todo-color, 
+                                      'doing':  $progtrckr-doing-bg-color $progtrckr-doing-color, 
+                                      'done':   $progtrckr-done-bg-color $progtrckr-done-color
+                                    );
+
+$progtrckr-bg-color-sm:             theme-color('info');
+$progtrckr-color-sm:                color('white');
+$progtrckr-line-height-sm:          2.375rem;
+$progtrckr-padding-sm:              0 22px;
+
+.progtrckr {
+  margin: 0;
+  padding: 0;
+  @include media-breakpoint-up('md') {
+    .progtrckr-doing, .progtrckr-done, .progtrckr-todo {
+      position: relative;
+      flex: 1;
+      &:not(:last-of-type) {
+        &::after {
+          z-index: 1;
+          content: '';
+          position: absolute;
+          left: 50%;
+          width: 50%;
+          top: $progtrckr-size / 2;
+          height: $progtrckr-separator-height;
+          background-color: $progtrckr-separator-color;
+        }
+      }
+      &:not(:first-of-type) {
+        &::before {
+          z-index: 1;
+          content: '';
+          position: absolute;
+          left: 0;
+          width: 50%;
+          top: $progtrckr-size / 2;
+          height: $progtrckr-separator-height;
+          background-color: $progtrckr-separator-color;
+        }
+      }
+      em {
+        position: relative;
+        z-index: 2;
+        margin: auto;
+        display: block;
+        font-style: normal;
+        font-size: $progtrckr-em-font-size;
+        font-weight: $progtrckr-em-font-weight;
+        width: $progtrckr-size;
+        height: $progtrckr-size;
+        border-radius: $progtrckr-size / 2;
+        box-shadow: $progtrckr-box-shadow;
+        text-align: center;
+        line-height: $progtrckr-size;
+      }
+      span {
+        display: block;
+        margin: $progtrckr-span-margin-top auto auto auto;
+        text-align: center;
+      }
+    }
+    @each $type, $progtrckr-items in $progtrckr_types {
+      .progtrckr-#{$type} {
+        em {
+          background-color: nth($progtrckr-items, 1);
+          color: nth($progtrckr-items, 2);
+        }
+      }
+    }
+  }
+  @include media-breakpoint-down('sm') {
+    background-color: $progtrckr-bg-color-sm;
+    color: $progtrckr-color-sm;
+    line-height: $progtrckr-line-height-sm;
+    padding: $progtrckr-padding-sm;
+    
+    @each $type, $progtrckr-items in $progtrckr_types {
+      .progtrckr-#{$type} {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        @if ($type == 'done' or $type == 'todo') {
+          display: none;
+        }
+        em {
+          float: right;
+          font-style: normal;
+          &::before {
+            content: 'Step ';
+          }
+        }
+      }
+    }
+  }
+}
+
+.step-horizontal {
+  .multi-step {
+    .progtrckr {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

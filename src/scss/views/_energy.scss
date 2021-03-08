@@ -1,0 +1,229 @@
+.page--energy {
+  .form-group-select {
+    .form-control {
+      height: 72px;
+    }
+    .btn {
+      padding: 0.9rem 1rem;
+    }
+    .ladda-button {
+      &[data-loading] {
+        padding-right: 56px;
+      }
+    }
+  }
+  .form-span {
+    position: relative;
+    span {
+      position: absolute;
+      color: #2D609B;
+      opacity: 0.5;
+      right: 18px;
+      bottom: 19px;
+    }
+  }
+  .form-icon {
+    position: relative;
+    img {
+      position: absolute;
+      right: 18px;
+      bottom: 24px;
+    }
+  }
+  .select-cards {
+    display: flex;
+    flex-wrap: wrap;
+    @include media-breakpoint-down('md'){
+      justify-content: center;
+    }
+    .card-select {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(#979797, 0.8);
+      border-radius: 5px;
+      width: 204px;
+      max-width: 100%;
+      height: 150px;
+      margin-right: 20px;
+      margin-bottom: 24px;
+      svg {
+        width: 51px;
+        height: 51px;
+        path {
+          mask: url('') !important;
+          fill: $success !important;
+        }
+      }
+      p {
+        font-size: $font-size-lg;
+        margin-top: 16px;
+        margin-bottom: 0;
+      }
+    }
+    .active {
+      background-color: $success;
+      color: $white;
+      svg {
+        path {
+          mask: url('') !important;
+          fill: $white !important;
+        }
+      }
+    }
+  }
+  .select-water {
+    .card-select {
+      @include media-breakpoint-up('lg'){
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .bottom-plans {
+    h5 {
+      max-width: 625px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .pricing-table-detail {
+      .pricing {
+        .price {
+          font-size: 70px;
+          @include media-breakpoint-down('sm'){
+            font-size: 56px;
+          }
+        }
+      }
+      .pricing-period {
+        font-weight: $font-weight-bold;
+        font-size: 20px;
+      }
+      .pricing-items {
+        li {
+          padding: 25px 60px;
+        }
+      }
+      max-width: 456px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .text-link {
+      padding-top: 24px;
+      margin-bottom: 40px;
+    }
+    .text-grey {
+      max-width: 724px;
+      margin-left: auto;
+      margin-right: auto;
+      p {
+        font-size: 12px;
+      }
+    }
+    .btn {
+      @include media-breakpoint-down('sm'){
+        padding: 0.9rem 1rem;
+      }
+    }
+  }
+  .card--compare {
+    color: $white;
+    padding: 28px 41px;
+    @include media-breakpoint-down('sm') {
+      padding: 20px;
+    }
+    border-radius: 5px;
+    position: relative;
+    > * {
+      position: relative;
+      z-index: 1;
+    }
+    &::before, &::after {
+      z-index: 0;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+    &::before {
+      background-color: $success;
+    }
+    &::after {
+      background: url('/img/media/maze.png');
+      background-position: center;
+      background-size: 2400px 2400px;
+      opacity: .1;
+    }
+    .form-group-compare {
+      position: relative;
+      .form-control {
+        padding: 22px;
+        font-size: $h3-font-size;
+        width: 460px;
+        max-width: 100%;
+        border-radius: 90px;
+        height: 90px;
+        border: 0;
+        @include box-shadow($box-shadow);
+        @include media-breakpoint-down('sm') {
+          width: 100%;
+          height: 48px;
+          font-size: $font-size-lg;
+        }
+      }
+      .btn {
+        position: absolute;
+        right: 22px;
+        top: 22px;
+        height: 48px;
+        font-weight: $font-weight-extra-bold;
+        @include media-breakpoint-down('sm') {
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+  .card--contact {
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    background-color: $info;
+    color: $white;
+    border-radius: 5px;
+    padding: 29px 36px;
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      margin-right: 24px;
+    }
+    .card-content {
+      max-width: 248px;
+      margin-right: 36px;
+      font-size: 20px;
+      font-weight: $font-weight-semi-bold;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      margin-top: -13px;
+      width: 0;
+      height: 0;
+      right: 36px;
+      border-style: solid;
+      border-width: 13px 0 13px 13px;
+      border-color: transparent transparent transparent $success;
+    }
+  }
+
+  .Collapsible__trigger {
+    &::after {
+      border-top: 9px solid theme-color('success');
+    }
+  }
+}

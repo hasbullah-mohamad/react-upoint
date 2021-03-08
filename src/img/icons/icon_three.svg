@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 44" style="enable-background:new 0 0 48 44;" xml:space="preserve">
+<title>icon-three</title>
+<desc>Created with Sketch.</desc>
+<g id="Main-Pages">
+	<g transform="translate(-1089.000000, -1188.000000)">
+		<g id="icon-three" transform="translate(1089.000000, 1188.000000)">
+			<g id="Clip-2">
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="47.914" height="43.931">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="0" y="0" width="47.914" height="43.931" id="mask-2_1_">
+				<g style="filter:url(#Adobe_OpacityMaskFilter);">
+					<polygon id="path-1_1_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="0,0 47.914,0 47.914,43.93 
+						0,43.93 					"/>
+				</g>
+			</mask>
+			<path id="Fill-1" style="mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#24B28A;" d="M36.666,40.896
+				c-4.537,0-8.229-3.71-8.229-8.271c0-4.561,3.691-8.271,8.229-8.271c4.537,0,8.229,3.71,8.229,8.271
+				C44.895,37.186,41.204,40.896,36.666,40.896z M11.247,40.896c-4.537,0-8.229-3.71-8.229-8.271c0-4.561,3.691-8.271,8.229-8.271
+				c4.537,0,8.229,3.71,8.229,8.271C19.476,37.186,15.785,40.896,11.247,40.896z M20.266,21.985
+				c1.157,0.405,2.399,0.626,3.691,0.626c1.355,0,2.655-0.242,3.859-0.686l1.723,1.96c-2.146,1.772-3.63,4.325-4.019,7.222h-3.127
+				c-0.396-2.956-1.933-5.552-4.148-7.327L20.266,21.985z M15.728,11.306c0-4.561,3.691-8.271,8.229-8.271s8.229,3.71,8.229,8.271
+				c0,4.561-3.691,8.271-8.229,8.271S15.728,15.866,15.728,11.306z M36.666,21.319c-1.606,0-3.134,0.341-4.517,0.953l-1.596-1.816
+				c2.816-2.057,4.651-5.392,4.651-9.151C35.204,5.072,30.159,0,23.957,0S12.709,5.072,12.709,11.306
+				c0,3.775,1.851,7.124,4.688,9.178l-1.89,1.678c-1.315-0.543-2.753-0.843-4.26-0.843C5.046,21.319,0,26.391,0,32.625
+				C0,38.859,5.046,43.93,11.247,43.93c5.69,0,10.406-4.269,11.146-9.788h3.127c0.74,5.519,5.456,9.788,11.146,9.788
+				c6.202,0,11.247-5.072,11.247-11.306C47.914,26.391,42.868,21.319,36.666,21.319z"/>
+		</g>
+	</g>
+</g>
+</svg>
